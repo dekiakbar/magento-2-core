@@ -3,10 +3,11 @@
     "description": "magento 2 core module",
     "type": "magento2-module",
     "license": "GPL-3.0",
+    "version": "1.0.0",
     "authors": [
         {
-            "name": "Mage2Gen",
-            "email": "info@mage2gen.com"
+            "name": "Deki Akbar",
+            "email": "dekiakbar@linumail.com"
         }
     ],
     "minimum-stability": "dev",
