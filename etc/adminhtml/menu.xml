@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Deki::top_level" title="Deki" module="Deki_Core" sortOrder="999" resource="Magento_Backend::content" dependsOnConfig="core/general/enable_admin_menu"/>
+    <add id="Deki_Core::configuration" title="Configuration" module="Deki_Core" sortOrder="1" resource="Deki_Core::config_deki_core" parent="Deki::top_level" action="adminhtml/system_config/edit/section/core"/>
+	</menu>
+</config>
