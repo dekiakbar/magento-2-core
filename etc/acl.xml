@@ -3,9 +3,18 @@
 	<acl>
 		<resources>
 			<resource id="Magento_Backend::admin">
+				<resource id="Magento_Backend::stores">
+					<resource id="Magento_Backend::stores_settings">
+						<resource id="Magento_Config::config">
+							<resource id="Deki_Core::config_deki" title="Deki">
+                <resource id="Deki_Core::config_deki_core" title="Core"/>
+              </resource>
+						</resource>
+					</resource>
+				</resource>
         <resource id="Deki_Core::deki" title="Deki" translate="title" sortOrder="10">
           <resource id="Deki_Core::deki_core" title="Core" translate="title" sortOrder="10">
-            <resource id="Deki_Core::deki_core_config" title="Configuration" translate="title" sortOrder="10" />
+            <!-- <resource id="Deki_Core::deki_core_config" title="Configuration" translate="title" sortOrder="10" /> -->
           </resource>
         </resource>
 			</resource>

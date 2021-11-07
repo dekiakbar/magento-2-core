@@ -3,7 +3,7 @@
 	<menu>
 		<add id="Deki_Core::deki" title="Deki" translate="title" module="Deki_Core" sortOrder="50" resource="Deki_Core::deki" dependsOnConfig="core/general/enable_admin_menu" dependsOnModule="Magento_Catalog"/>
     <add id="Deki_Core::deki_core" title="Core" translate="title" module="Deki_Core" sortOrder="50" resource="Deki_Core::deki_core" parent="Deki_Core::deki"/>
-    <add id="Deki_Core::deki_core_config" title="Configuration" translate="title" module="Deki_Core" sortOrder="1" resource="Deki_Core::deki_core_config" parent="Deki_Core::deki_core" action="adminhtml/system_config/edit/section/core"/>
+    <add id="Deki_Core::deki_core_config" title="Configuration" translate="title" module="Deki_Core" sortOrder="1" resource="Deki_Core::config_deki_core" parent="Deki_Core::deki_core" action="adminhtml/system_config/edit/section/core"/>
     
   </menu>
 </config>
