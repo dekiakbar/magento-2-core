@@ -1,5 +1,5 @@
 {
-    "name": "deki/module-core",
+    "name": "deki/magento-2-core",
     "description": "magento 2 core module",
     "type": "magento2-module",
     "license": "GPL-3.0",
